@@ -11,11 +11,14 @@ NVIDIA Modulus Sym: This package provides symbolic mathematics and is required f
 ```Bash
 pip install nvidia-modulus-sym
 ```
-
+In my case, there is a dependency that is not automatically installed. So, you need to install it yourself.
+```Bash
+pip install warp-lang
+```
 STL File: You need an STL file that you want to import. STL files are commonly used for 3D models and are typically used in computational simulations.
 
 ## Example Code
-See on an example code 'main.py' that demonstrates how to import an STL file using NVIDIA Modulus. This code will help you understand how to load and process STL files in the context of a Modulus-based project. This Example will be look familiar if you have seen the example on the modulus-sym before. I just modified how if it load from STL file rather that creating the new geometry. The other code is left as it is. Please find the pre-make stl files as 'bracket.stl'
+See an example code 'main.py' that demonstrates how to import an STL file using NVIDIA Modulus. This code will help you understand how to load and process STL files in the context of a Modulus-based project. This Example will be look familiar if you have seen the example on the modulus-sym before. I just modified how if it load from STL file rather that creating the new geometry. The other code is left as it is. Please find the pre-make stl files as 'bracket.stl'
 
 ## Additional Notes
 This example assumes a simple use case for illustration purposes. In practice, you may need to adapt the code to handle specific details of your simulation or geometry processing.
