@@ -147,7 +147,7 @@ def run(cfg: ModulusConfig) -> None:
     # geo = support + bracket + curve_lower + curve_upper - cylinder_hole
 
     # Import geometry
-    stl = 'STL_import/bracket.stl'
+    stl = 'bracket.stl'
     geo_boundary = Tessellation.from_stl(to_absolute_path(stl), airtight=False)
     geo_interior = Tessellation.from_stl(to_absolute_path(stl), airtight=True)
 
